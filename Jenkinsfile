@@ -5,7 +5,7 @@ pipeline {
             registryCredential = 'DockerHub'
             dockerImage = ''
 		PROJECT_ID = 'sharp-gecko-279418'
- 		CLUSTER_NAME = 'sprint6-kube-cluster-gcp'
+ 		CLUSTER_NAME = 'kube-demo'
  		LOCATION = 'us-central1-c'
  		CREDENTIALS_ID = 'kube-jenkins'
         }
