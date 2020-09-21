@@ -6,7 +6,7 @@ pipeline {
             dockerImage = ''
 		PROJECT_ID = 'sharp-gecko-279418'
  		CLUSTER_NAME = 'kube-demo'
- 		LOCATION = 'us-central1-c'
+ 		LOCATION = 'us-central1-a'
  		CREDENTIALS_ID = 'kube-jenkins'
         }
 		
