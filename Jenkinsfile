@@ -8,6 +8,8 @@ pipeline {
  		CLUSTER_NAME = 'kube-demo'
  		LOCATION = 'us-central1-a'
  		CREDENTIALS_ID = 'kube-jenkins'
+		echo $CREDENTIALS_ID
+		echo $registryCredential
         }
 		
 	    stages {	
