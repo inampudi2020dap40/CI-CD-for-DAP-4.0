@@ -2,7 +2,7 @@ pipeline {
         agent any
         environment {
             registry = "srinivasinampuditcs/sprint6integration"
-            registryCredential = 'DockerHub'
+            registryCredential = 'dockerhubcredential'
             dockerImage = ''
 		PROJECT_ID = 'sharp-gecko-279418'
  		CLUSTER_NAME = 'kube-demo'
